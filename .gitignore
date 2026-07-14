@@ -1,2 +1,6 @@
 venv/
 db.sqlite3
+.DS_Store
+my_shop/__pycache__
+my_shop/migrations/__pycache__
+main/__pycache__/
