@@ -1,13 +1,11 @@
+# Importer
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("<h1>Home Page</h1>")
+    return render(request, "my_shop/index.html")
 
 def about(request):
-    return HttpResponse("<h1>About Us Page</h1>")
+    return render(request, "my_shop/about.html")
 
 def contact(request):
-    return HttpResponse("<h1>+998901234567</h1>")
-
-    
+    return render(request, "my_shop/contact.html")
