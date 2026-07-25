@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-</head>
-<body>
+{% extends "my_shop/base.html" %}
 
-     <h1>{{ phone }}</h1>
-    
-</body>
-</html>
+{% block title %}
+    Aloqa!
+{% endblock %}
+
+{% block nav %}
+<a href="#">My  Profile</a>
+{% endblock %}
+
+
+{% block content %}
+    <h1>Kontaktlar</h1>
+    <p>+998901234567!</p>
+{% endblock %}

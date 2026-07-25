@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<body>
+{% extends "my_shop/base.html" %}
+{% load static %}
 
-    <h1>{{ title }}</h1>
-    
-</body>
-</html>
+{% block title %}
+    Main page title
+{% endblock %}
+
+{% block content %}
+    <h1>Bosh sahifa</h1>
+    <p>My Shop ga xush kelibsiz!</p>
+    <img src="{% static 'images/logo.png' %}" alt="My Shop Logo" width="120">
+    <button id="hello-button">Say Hello</button>
+{% endblock %}

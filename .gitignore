@@ -4,3 +4,7 @@ db.sqlite3
 my_shop/__pycache__
 my_shop/migrations/__pycache__
 main/__pycache__/
+.idea/
+static.zip
+.DS_Store/
+main/__pycache__/
